@@ -135,7 +135,7 @@ WHERE COLUMN_NAME LIKE pattern;
 - **`%`：匹配任意字符（包括零个字符）。**
 - **`_`：匹配单个字符。**
 
-![image-20260316182913418](figures_sql\image-20260316182913418.png)
+![image-20260316182913418](figures_sql/image-20260316182913418.png)
 
 使用 **%** 通配符找出所有以 "iPhone" 开头的产品：
 
