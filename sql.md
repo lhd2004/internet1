@@ -38,7 +38,7 @@ asc:升序
 
 desc:降序
 
-![image-20260316180733650](figures_sql\image-20260316180733650.png)
+![image-20260316180733650](figures_sql/image-20260316180733650.png)
 
 SQL 语句从 "Websites" 表中选取所有网站，并按照 "alexa" 列排序：
 
@@ -76,7 +76,7 @@ SET COLUMN1=VALUES1,COLUMN1=VALUES2,...
 
 WHERE CONDITION;
 
-![image-20260316181815729](figures_sql\image-20260316181815729.png)
+![image-20260316181815729](figures_sql/image-20260316181815729.png)
 
 假设我们要把 "菜鸟教程" 的 alexa 排名更新为 5000，country 改为 USA。
 
@@ -98,7 +98,7 @@ SELECT TOP number/percent COLUMN1,COLUMN2,...
 
 FROM TABLE_NAME;
 
-![image-20260316182311011](figures_sql\image-20260316182311011.png)
+![image-20260316182311011](figures_sql/image-20260316182311011.png)
 
 SELECT TOP 3 *
 
@@ -110,7 +110,7 @@ SELECT TOP 10 PERCENT *
 
 FROM  Employes;
 
-![image-20260316182614175](figures_sql\image-20260316182614175.png)
+![image-20260316182614175](figures_sql/image-20260316182614175.png)
 
 下面的 SQL 语句从 "Websites" 表中选取头两条记录：
 
